@@ -4,7 +4,7 @@ static void print_hello(GtkWidget *widget, gpointer data) {
 	g_print("Hello World!\n");
 }
 
-static void sec_hello(GtkWidget *widget, gpointer) {
+static void sec_hello(GtkWidget *widget, gpointer data) {
 	g_print("Second Hello World!\n");
 }
 
